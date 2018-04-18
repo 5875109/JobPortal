@@ -1,0 +1,8 @@
+C:\Users\pro_\Desktop\JobPortal\Tests\bin\Debug\Tests.dll.config
+C:\Users\pro_\Desktop\JobPortal\Tests\bin\Debug\Tests.dll
+C:\Users\pro_\Desktop\JobPortal\Tests\bin\Debug\Tests.pdb
+C:\Users\pro_\Desktop\JobPortal\Tests\bin\Debug\Logic.dll
+C:\Users\pro_\Desktop\JobPortal\Tests\bin\Debug\Logic.pdb
+C:\Users\pro_\Desktop\JobPortal\Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\pro_\Desktop\JobPortal\Tests\obj\Debug\Tests.dll
+C:\Users\pro_\Desktop\JobPortal\Tests\obj\Debug\Tests.pdb

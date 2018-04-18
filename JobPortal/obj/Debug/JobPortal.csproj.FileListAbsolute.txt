@@ -1,0 +1,7 @@
+C:\Users\pro_\Desktop\JobPortal\JobPortal\bin\JobPortal.dll
+C:\Users\pro_\Desktop\JobPortal\JobPortal\bin\JobPortal.pdb
+C:\Users\pro_\Desktop\JobPortal\JobPortal\bin\Logic.dll
+C:\Users\pro_\Desktop\JobPortal\JobPortal\bin\Logic.pdb
+C:\Users\pro_\Desktop\JobPortal\JobPortal\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\pro_\Desktop\JobPortal\JobPortal\obj\Debug\JobPortal.dll
+C:\Users\pro_\Desktop\JobPortal\JobPortal\obj\Debug\JobPortal.pdb

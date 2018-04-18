@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="357bdec8-1ff4-48bd-9415-cd0cb7c4f793" name="pro_@PRO 2010-09-23 21:36:31" runUser="pro\pro_" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="cdfb2c4f-e331-42cf-9420-dc0558696af6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="pro__PRO 2010-09-23 21_36_31">
+      <DeploymentItem filename="C:\Users\pro_\Desktop\JobPortal\Logic\bin\Debug\Logic.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-09-23T21:36:31.1878332+03:00" queuing="2010-09-23T21:36:31.1988339+03:00" start="2010-09-23T21:36:31.2378361+03:00" finish="2010-09-23T21:36:31.9418764+03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" passed="4" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CreateCompanyTest" storage="c:\users\pro_\desktop\jobportal\tests\bin\debug\tests.dll" id="d9a4d60e-041a-487e-1772-3a03a9248a3a">
+      <Execution id="311e33d6-d602-4238-8555-a213bcf002cb" />
+      <TestMethod codeBase="C:/Users/pro_/Desktop/JobPortal/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CompanyManagerTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateCompanyTest" />
+    </UnitTest>
+    <UnitTest name="GetCompaniesTest" storage="c:\users\pro_\desktop\jobportal\tests\bin\debug\tests.dll" id="0f3b4bf9-6562-b248-ed29-f506a1a85e4c">
+      <Execution id="a192fcbc-7392-429a-8b6e-e285681217d0" />
+      <TestMethod codeBase="C:/Users/pro_/Desktop/JobPortal/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CompanyManagerTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetCompaniesTest" />
+    </UnitTest>
+    <UnitTest name="CanCreateCompanyManagerTest" storage="c:\users\pro_\desktop\jobportal\tests\bin\debug\tests.dll" id="5fc830a2-71bb-887a-cc87-9b91ebbfb60a">
+      <Execution id="4b6c7a53-bb45-4048-af52-a5f97dbeb064" />
+      <TestMethod codeBase="C:/Users/pro_/Desktop/JobPortal/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CompanyManagerTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanCreateCompanyManagerTest" />
+    </UnitTest>
+    <UnitTest name="CreateVacancyTest" storage="c:\users\pro_\desktop\jobportal\tests\bin\debug\tests.dll" id="2775a6ff-e8b5-4fa1-6481-3cd277ef4c53">
+      <Execution id="c1377f52-6426-4a41-8a18-2877419397ca" />
+      <TestMethod codeBase="C:/Users/pro_/Desktop/JobPortal/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CompanyManagerTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateVacancyTest" />
+    </UnitTest>
+    <UnitTest name="CreateVacancyEditTest" storage="c:\users\pro_\desktop\jobportal\tests\bin\debug\tests.dll" id="6e62afdc-280b-d45f-7fa8-ab8312046754">
+      <Execution id="79ecb0b2-76a0-438d-8bdb-54b796a014d3" />
+      <TestMethod codeBase="C:/Users/pro_/Desktop/JobPortal/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CompanyManagerTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateVacancyEditTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0f3b4bf9-6562-b248-ed29-f506a1a85e4c" executionId="a192fcbc-7392-429a-8b6e-e285681217d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2775a6ff-e8b5-4fa1-6481-3cd277ef4c53" executionId="c1377f52-6426-4a41-8a18-2877419397ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5fc830a2-71bb-887a-cc87-9b91ebbfb60a" executionId="4b6c7a53-bb45-4048-af52-a5f97dbeb064" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6e62afdc-280b-d45f-7fa8-ab8312046754" executionId="79ecb0b2-76a0-438d-8bdb-54b796a014d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d9a4d60e-041a-487e-1772-3a03a9248a3a" executionId="311e33d6-d602-4238-8555-a213bcf002cb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a192fcbc-7392-429a-8b6e-e285681217d0" testId="0f3b4bf9-6562-b248-ed29-f506a1a85e4c" testName="GetCompaniesTest" computerName="PRO" duration="00:00:00.1611072" startTime="2010-09-23T21:36:31.2388361+03:00" endTime="2010-09-23T21:36:31.6928621+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a192fcbc-7392-429a-8b6e-e285681217d0">
+    </UnitTestResult>
+    <UnitTestResult executionId="c1377f52-6426-4a41-8a18-2877419397ca" testId="2775a6ff-e8b5-4fa1-6481-3cd277ef4c53" testName="CreateVacancyTest" computerName="PRO" duration="00:00:00.0529764" startTime="2010-09-23T21:36:31.6968623+03:00" endTime="2010-09-23T21:36:31.7578658+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c1377f52-6426-4a41-8a18-2877419397ca">
+    </UnitTestResult>
+    <UnitTestResult executionId="4b6c7a53-bb45-4048-af52-a5f97dbeb064" testId="5fc830a2-71bb-887a-cc87-9b91ebbfb60a" testName="CanCreateCompanyManagerTest" computerName="PRO" duration="00:00:00.0002412" startTime="2010-09-23T21:36:31.7608660+03:00" endTime="2010-09-23T21:36:31.7688665+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b6c7a53-bb45-4048-af52-a5f97dbeb064">
+    </UnitTestResult>
+    <UnitTestResult executionId="79ecb0b2-76a0-438d-8bdb-54b796a014d3" testId="6e62afdc-280b-d45f-7fa8-ab8312046754" testName="CreateVacancyEditTest" computerName="PRO" duration="00:00:00.0892036" startTime="2010-09-23T21:36:31.7748668+03:00" endTime="2010-09-23T21:36:31.8698722+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="79ecb0b2-76a0-438d-8bdb-54b796a014d3">
+    </UnitTestResult>
+    <UnitTestResult executionId="311e33d6-d602-4238-8555-a213bcf002cb" testId="d9a4d60e-041a-487e-1772-3a03a9248a3a" testName="CreateCompanyTest" computerName="PRO" duration="00:00:00.0337367" startTime="2010-09-23T21:36:31.8738725+03:00" endTime="2010-09-23T21:36:31.9148748+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="311e33d6-d602-4238-8555-a213bcf002cb">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Tests.CompanyManagerTests.CreateCompanyTest threw exception: 
+System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_Companies'. Cannot insert duplicate key in object 'dbo.Companies'.
+The statement has been terminated.</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicInsert(TrackedObject item)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.Insert(TrackedObject item)
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges()
+   at Logic.DAL.CompanyManager.CreateCompany(Company company) in C:\Users\pro_\Desktop\JobPortal\Logic\DAL\CompanyManager.cs:line 25
+   at Tests.CompanyManagerTests.CreateCompanyTest() in C:\Users\pro_\Desktop\JobPortal\Tests\CompanyManagerTests.cs:line 73
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

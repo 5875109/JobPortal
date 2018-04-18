@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F0CCABD7-F234-4A81-97C6-0258E6A0CFC4}</ProjectGuid>
+    <ProjectTypeGuids>{F85E285D-A4E0-4152-9332-AB1D724D3325};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JobPortal</RootNamespace>
+    <AssemblyName>JobPortal</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\FilesController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Core\CreateDateDropDownList.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\ui-lightness\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="Content\ui-lightness\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="Content\ui-lightness\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="Content\ui-lightness\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="Content\ui-lightness\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="Content\ui-lightness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\ui-lightness\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="Content\ui-lightness\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="Content\ui-lightness\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="Content\ui-lightness\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\ui-lightness\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="Content\ui-lightness\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="Content\ui-lightness\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="Content\ui-lightness\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Content\ui-lightness\jquery-ui-1.8.5.custom.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Scripts\jquery-1.4.3.min.js" />
+    <Content Include="Scripts\jquery-ui-1.8.5.custom.min.js" />
+    <Content Include="Scripts\jquery-validate\additional-methods.js" />
+    <Content Include="Scripts\jquery-validate\changelog.txt" />
+    <Content Include="Scripts\jquery-validate\jquery.validate.js" />
+    <Content Include="Scripts\jquery-validate\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery-validate\jquery.validate.pack.js" />
+    <Content Include="Scripts\jquery-validate\lib\jquery-1.4.2.js" />
+    <Content Include="Scripts\jquery-validate\lib\jquery.form.js" />
+    <Content Include="Scripts\jquery-validate\lib\jquery.js" />
+    <Content Include="Scripts\jquery-validate\lib\jquery.metadata.js" />
+    <Content Include="Scripts\jquery-validate\localization\messages_ar.js" />
+    <Content Include="Scripts\jquery-validate\localization\messages_bg.js" />
+    <Content Include="Scripts\jquery-validate\localization\messages_cn.js" />
+    <Content Include="Scripts\jquery-validate\localization\messages_cs.js" />
+    <Content Include="Scripts\jquery-validate\localization\messages_da.js" />
+    <Content Include="Scripts\jquery-validate\localization\messages_de.js" />
+    <Content Include="Scripts\jquery-validate\localization\messages_el.js" />
+    <Content Include="Scripts\jquery-validate\localization\messages_es.js" />
+    <Content Include="Scripts\jquery-validate\localization\messages_fa.js" />
+    <Content Include="Scripts\jquery-validate\localization\messages_fi.js" />
+    <Content Include="Scripts\jquery-validate\localization\messages_fr.js" />
+    <Content Include="Scripts\jquery-validate\localization\messages_he.js" />
+    <Content Include="Scripts\jquery-validate\localization\messages_hu.js" />
+    <Content Include="Scripts\jquery-validate\localization\messages_it.js" />
+    <Content Include="Scripts\jquery-validate\localization\messages_kk.js" />
+    <Content Include="Scripts\jquery-validate\localization\messages_lt.js" />
+    <Content Include="Scripts\jquery-validate\localization\messages_lv.js" />
+    <Content Include="Scripts\jquery-validate\localization\messages_nl.js" />
+    <Content Include="Scripts\jquery-validate\localization\messages_no.js" />
+    <Content Include="Scripts\jquery-validate\localization\messages_pl.js" />
+    <Content Include="Scripts\jquery-validate\localization\messages_ptbr.js" />
+    <Content Include="Scripts\jquery-validate\localization\messages_ptpt.js" />
+    <Content Include="Scripts\jquery-validate\localization\messages_ro.js" />
+    <Content Include="Scripts\jquery-validate\localization\messages_ru.js" />
+    <Content Include="Scripts\jquery-validate\localization\messages_se.js" />
+    <Content Include="Scripts\jquery-validate\localization\messages_sk.js" />
+    <Content Include="Scripts\jquery-validate\localization\messages_tr.js" />
+    <Content Include="Scripts\jquery-validate\localization\messages_tw.js" />
+    <Content Include="Scripts\jquery-validate\localization\messages_ua.js" />
+    <Content Include="Scripts\jquery-validate\localization\methods_de.js" />
+    <Content Include="Scripts\jquery-validate\localization\methods_nl.js" />
+    <Content Include="Scripts\jquery-validate\localization\methods_pt.js" />
+    <Content Include="Views\Account\ChangePassword.aspx" />
+    <Content Include="Views\Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Views\Account\LogOn.aspx" />
+    <Content Include="Views\Account\Register.aspx" />
+    <Content Include="Views\Home\Detail.ascx" />
+    <Content Include="Views\Home\DetailsForAll.aspx" />
+    <Content Include="Views\Home\ListForAll.aspx" />
+    <Content Include="Views\Home\SrchCandidates.aspx" />
+    <Content Include="Views\Home\Create.aspx" />
+    <Content Include="Views\Home\Details.aspx" />
+    <Content Include="Views\Home\DetailsCandidate.aspx" />
+    <Content Include="Views\Home\Edit.aspx" />
+    <Content Include="Views\Home\EditCadidates.aspx" />
+    <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Views\Home\List.aspx" />
+    <Content Include="Views\Home\ListCandidates.aspx" />
+    <Content Include="Views\Home\SrchVacancies.aspx" />
+    <Content Include="Views\Shared\LogOnUserControl.ascx" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\MicrosoftAjax.js" />
+    <Content Include="Scripts\MicrosoftAjax.debug.js" />
+    <Content Include="Scripts\MicrosoftMvcAjax.js" />
+    <Content Include="Scripts\MicrosoftMvcAjax.debug.js" />
+    <Content Include="Scripts\MicrosoftMvcValidation.js" />
+    <Content Include="Scripts\MicrosoftMvcValidation.debug.js" />
+    <Content Include="Views\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Logic\Logic.csproj">
+      <Project>{8CEA3A0B-07F3-4560-AA21-08536268A2CE}</Project>
+      <Name>Logic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Uploads\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\jquery-validate\todo" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target> -->
+  <Target Name="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(ProjectDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>43329</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

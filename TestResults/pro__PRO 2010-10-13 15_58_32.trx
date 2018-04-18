@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="28c816cb-73db-4945-a4cc-6007ca97eef0" name="pro_@PRO 2010-10-13 15:58:32" runUser="pro\pro_" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="cdfb2c4f-e331-42cf-9420-dc0558696af6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="pro__PRO 2010-10-13 15_58_32">
+      <DeploymentItem filename="C:\Users\pro_\Desktop\JobPortal\Logic\bin\Debug\Logic.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-10-13T15:58:32.4781766+03:00" queuing="2010-10-13T15:58:32.5251793+03:00" start="2010-10-13T15:58:32.5421802+03:00" finish="2010-10-13T15:58:33.7602499+03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="6" executed="5" passed="2" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="1" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CreateCompanyTest" storage="c:\users\pro_\desktop\jobportal\tests\bin\debug\tests.dll" id="d9a4d60e-041a-487e-1772-3a03a9248a3a">
+      <Execution id="e7392180-1f91-4085-82f8-6bf8e7411bc2" />
+      <TestMethod codeBase="C:/Users/pro_/Desktop/JobPortal/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CompanyManagerTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateCompanyTest" />
+    </UnitTest>
+    <UnitTest name="GetCompaniesTest" storage="c:\users\pro_\desktop\jobportal\tests\bin\debug\tests.dll" id="0f3b4bf9-6562-b248-ed29-f506a1a85e4c">
+      <Execution id="5ea16aa5-1a3e-4743-8c45-d0a7ec555af7" />
+      <TestMethod codeBase="C:/Users/pro_/Desktop/JobPortal/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CompanyManagerTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetCompaniesTest" />
+    </UnitTest>
+    <UnitTest name="CreateVacancyTest" storage="c:\users\pro_\desktop\jobportal\tests\bin\debug\tests.dll" id="2775a6ff-e8b5-4fa1-6481-3cd277ef4c53">
+      <Execution id="0e72ce07-5269-46ca-a74f-e2fdbf73f5a9" />
+      <TestMethod codeBase="C:/Users/pro_/Desktop/JobPortal/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CompanyManagerTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateVacancyTest" />
+    </UnitTest>
+    <UnitTest name="CreateVacancyEditTest" storage="c:\users\pro_\desktop\jobportal\tests\bin\debug\tests.dll" id="6e62afdc-280b-d45f-7fa8-ab8312046754">
+      <Execution id="80d4f0da-c2a5-4059-baf6-9ff55bec607d" />
+      <TestMethod codeBase="C:/Users/pro_/Desktop/JobPortal/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CompanyManagerTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateVacancyEditTest" />
+    </UnitTest>
+    <UnitTest name="DeleteVacancyTest" storage="c:\users\pro_\desktop\jobportal\tests\bin\debug\tests.dll" id="af809567-5bd7-f265-fe53-5308b5410e4c">
+      <Execution id="aea2d7db-afc7-4b13-bd2f-419b5850c578" />
+      <TestMethod codeBase="C:/Users/pro_/Desktop/JobPortal/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CompanyManagerTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteVacancyTest" />
+    </UnitTest>
+    <UnitTest name="CanCreateCompanyManagerTest" storage="c:\users\pro_\desktop\jobportal\tests\bin\debug\tests.dll" id="5fc830a2-71bb-887a-cc87-9b91ebbfb60a">
+      <Execution id="31b9f440-99a0-44b6-933b-ee39cd60bf10" />
+      <TestMethod codeBase="C:/Users/pro_/Desktop/JobPortal/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CompanyManagerTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanCreateCompanyManagerTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0f3b4bf9-6562-b248-ed29-f506a1a85e4c" executionId="5ea16aa5-1a3e-4743-8c45-d0a7ec555af7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2775a6ff-e8b5-4fa1-6481-3cd277ef4c53" executionId="0e72ce07-5269-46ca-a74f-e2fdbf73f5a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5fc830a2-71bb-887a-cc87-9b91ebbfb60a" executionId="31b9f440-99a0-44b6-933b-ee39cd60bf10" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6e62afdc-280b-d45f-7fa8-ab8312046754" executionId="80d4f0da-c2a5-4059-baf6-9ff55bec607d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="af809567-5bd7-f265-fe53-5308b5410e4c" executionId="aea2d7db-afc7-4b13-bd2f-419b5850c578" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d9a4d60e-041a-487e-1772-3a03a9248a3a" executionId="e7392180-1f91-4085-82f8-6bf8e7411bc2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5ea16aa5-1a3e-4743-8c45-d0a7ec555af7" testId="0f3b4bf9-6562-b248-ed29-f506a1a85e4c" testName="GetCompaniesTest" computerName="PRO" duration="00:00:00.4862039" startTime="2010-10-13T15:58:32.5611813+03:00" endTime="2010-10-13T15:58:33.3272251+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5ea16aa5-1a3e-4743-8c45-d0a7ec555af7">
+    </UnitTestResult>
+    <UnitTestResult executionId="0e72ce07-5269-46ca-a74f-e2fdbf73f5a9" testId="2775a6ff-e8b5-4fa1-6481-3cd277ef4c53" testName="CreateVacancyTest" computerName="PRO" duration="00:00:00.0584840" startTime="2010-10-13T15:58:33.3302253+03:00" endTime="2010-10-13T15:58:33.3962291+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e72ce07-5269-46ca-a74f-e2fdbf73f5a9">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Tests.CompanyManagerTests.CreateVacancyTest threw exception: 
+System.Data.SqlClient.SqlException: Cannot insert the value NULL into column 'Name', table 'jobportal.dbo.Vacancies'; column does not allow nulls. INSERT fails.
+The statement has been terminated.</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicInsert(TrackedObject item)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.Insert(TrackedObject item)
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges()
+   at Logic.CompanyManager.CreateVacancy(Vacancy vc) in C:\Users\pro_\Desktop\JobPortal\Logic\CompanyManager.cs:line 50
+   at Tests.CompanyManagerTests.CreateVacancyTest() in C:\Users\pro_\Desktop\JobPortal\Tests\CompanyManagerTests.cs:line 27
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="31b9f440-99a0-44b6-933b-ee39cd60bf10" testId="5fc830a2-71bb-887a-cc87-9b91ebbfb60a" testName="CanCreateCompanyManagerTest" computerName="PRO" duration="00:00:00.0002278" startTime="2010-10-13T15:58:33.3982292+03:00" endTime="2010-10-13T15:58:33.4172303+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="31b9f440-99a0-44b6-933b-ee39cd60bf10">
+    </UnitTestResult>
+    <UnitTestResult executionId="80d4f0da-c2a5-4059-baf6-9ff55bec607d" testId="6e62afdc-280b-d45f-7fa8-ab8312046754" testName="CreateVacancyEditTest" computerName="PRO" duration="00:00:00.2719146" startTime="2010-10-13T15:58:33.4232306+03:00" endTime="2010-10-13T15:58:33.7022466+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80d4f0da-c2a5-4059-baf6-9ff55bec607d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Tests.CompanyManagerTests.CreateVacancyEditTest threw exception: 
+System.InvalidOperationException: Sequence contains no elements</Message>
+          <StackTrace>    at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   at Logic.CompanyManager.SaveVacancy(Vacancy EditeVacansy) in C:\Users\pro_\Desktop\JobPortal\Logic\CompanyManager.cs:line 91
+   at Tests.CompanyManagerTests.CreateVacancyEditTest() in C:\Users\pro_\Desktop\JobPortal\Tests\CompanyManagerTests.cs:line 37
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="aea2d7db-afc7-4b13-bd2f-419b5850c578" testId="af809567-5bd7-f265-fe53-5308b5410e4c" testName="DeleteVacancyTest" computerName="PRO" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotRunnable" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aea2d7db-afc7-4b13-bd2f-419b5850c578">
+      <Output>
+        <ErrorInfo>
+          <Message>UTA007: Method DeleteVacancyTest defined in class Tests.CompanyManagerTests does not have correct signature. Test method marked with the [TestMethod] attribute must be non-static, public, does not return a value and should not take any parameter. for example: public void Test.Class1.Test().</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e7392180-1f91-4085-82f8-6bf8e7411bc2" testId="d9a4d60e-041a-487e-1772-3a03a9248a3a" testName="CreateCompanyTest" computerName="PRO" duration="00:00:00.0192628" startTime="2010-10-13T15:58:33.7062468+03:00" endTime="2010-10-13T15:58:33.7332484+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e7392180-1f91-4085-82f8-6bf8e7411bc2">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Tests.CompanyManagerTests.CreateCompanyTest threw exception: 
+System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_Companies'. Cannot insert duplicate key in object 'dbo.Companies'.
+The statement has been terminated.</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicInsert(TrackedObject item)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.Insert(TrackedObject item)
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges()
+   at Logic.CompanyManager.CreateCompany(Company company) in C:\Users\pro_\Desktop\JobPortal\Logic\CompanyManager.cs:line 39
+   at Tests.CompanyManagerTests.CreateCompanyTest() in C:\Users\pro_\Desktop\JobPortal\Tests\CompanyManagerTests.cs:line 79
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

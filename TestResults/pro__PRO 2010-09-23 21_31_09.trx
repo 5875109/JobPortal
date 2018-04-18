@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="213ef172-9763-4d0e-98ba-36d180988772" name="pro_@PRO 2010-09-23 21:31:09" runUser="pro\pro_" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="cdfb2c4f-e331-42cf-9420-dc0558696af6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="pro__PRO 2010-09-23 21_31_09">
+      <DeploymentItem filename="C:\Users\pro_\Desktop\JobPortal\Logic\bin\Debug\Logic.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-09-23T21:31:09.0114058+03:00" queuing="2010-09-23T21:31:09.0204063+03:00" start="2010-09-23T21:31:09.0334070+03:00" finish="2010-09-23T21:31:09.4484308+03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CreateVacancyTest" storage="c:\users\pro_\desktop\jobportal\tests\bin\debug\tests.dll" id="2775a6ff-e8b5-4fa1-6481-3cd277ef4c53">
+      <Execution id="ccbede88-4268-4046-b6d2-e1b05f1d553b" />
+      <TestMethod codeBase="C:/Users/pro_/Desktop/JobPortal/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CompanyManagerTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateVacancyTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2775a6ff-e8b5-4fa1-6481-3cd277ef4c53" executionId="ccbede88-4268-4046-b6d2-e1b05f1d553b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ccbede88-4268-4046-b6d2-e1b05f1d553b" testId="2775a6ff-e8b5-4fa1-6481-3cd277ef4c53" testName="CreateVacancyTest" computerName="PRO" duration="00:00:00.1036036" startTime="2010-09-23T21:31:09.0504080+03:00" endTime="2010-09-23T21:31:09.4264295+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ccbede88-4268-4046-b6d2-e1b05f1d553b">
+    </UnitTestResult>
+  </Results>
+</TestRun>

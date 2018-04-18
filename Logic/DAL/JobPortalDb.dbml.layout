@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="JobPortalDb">
+  <DataContextMoniker Name="/JobPortalDbDataContext" />
+  <nestedChildShapes>
+    <classShape Id="190df9d9-306c-491f-ba8f-fed107a95f30" absoluteBounds="3.5, 0.5, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/JobPortalDbDataContext/aspnet_User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b79ebe0b-7580-4ee1-983a-0e67432b85ef" absoluteBounds="3.515, 0.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9eab9552-f477-41a0-85de-8512e6478bfb" absoluteBounds="0.75, 2, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/JobPortalDbDataContext/Post" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fbe073d0-ebb7-4079-b534-158697a6776e" absoluteBounds="0.765, 2.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dfc0e644-be87-41b5-a780-947d2444b9f7" absoluteBounds="3.875, 6.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/JobPortalDbDataContext/Request" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5b5bfb96-3417-4d6b-ba13-66167cd595d3" absoluteBounds="3.8900000000000006, 7.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="79e13dc5-e580-4f95-a4bf-6d87d9331642" absoluteBounds="6.375, 0.5, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/JobPortalDbDataContext/Salary" />
+      <nestedChildShapes>
+        <elementListCompartment Id="82c935af-4fdb-4a8c-b43e-9d8b08df0f29" absoluteBounds="6.3900000000000006, 0.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="451b44a1-3483-4681-9e5a-2786d4128378" absoluteBounds="8.5, 0.5, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/JobPortalDbDataContext/SphereActivity" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f49a1c39-ae3a-4cd1-9ec7-b29d517d9744" absoluteBounds="8.515, 0.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5b95b55e-3d2c-4797-a224-cf320859a84c" absoluteBounds="1.5, 4, 2, 3.1170068359375">
+      <DataClassMoniker Name="/JobPortalDbDataContext/Candidate" />
+      <nestedChildShapes>
+        <elementListCompartment Id="07dc8d6d-4e97-4259-bf9c-8d2e15b7122e" absoluteBounds="1.5150000000000001, 4.46, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5ee85434-a966-4c57-bc9c-c7105ab2e08b" absoluteBounds="6.25, 3.25, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/JobPortalDbDataContext/Vacancy" />
+      <nestedChildShapes>
+        <elementListCompartment Id="26c0091f-68ed-44b2-9cad-5ec0c0211066" absoluteBounds="6.265, 3.71, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.25 : 6.17470540364583); (5.875 : 6.75)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/JobPortalDbDataContext/Vacancy/Vacancy_Request" />
+      <nodes>
+        <classShapeMoniker Id="5ee85434-a966-4c57-bc9c-c7105ab2e08b" />
+        <classShapeMoniker Id="dfc0e644-be87-41b5-a780-947d2444b9f7" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 2.20599609375); (6.28125 : 2.20599609375); (6.28125 : 3.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/JobPortalDbDataContext/aspnet_User/aspnet_User_Vacancy" />
+      <nodes>
+        <classShapeMoniker Id="190df9d9-306c-491f-ba8f-fed107a95f30" />
+        <classShapeMoniker Id="5ee85434-a966-4c57-bc9c-c7105ab2e08b" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

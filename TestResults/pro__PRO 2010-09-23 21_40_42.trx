@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="739eaf44-8fb7-41b0-960f-6414c3164d3a" name="pro_@PRO 2010-09-23 21:40:42" runUser="pro\pro_" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="cdfb2c4f-e331-42cf-9420-dc0558696af6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="pro__PRO 2010-09-23 21_40_42">
+      <DeploymentItem filename="C:\Users\pro_\Desktop\JobPortal\Logic\bin\Debug\Logic.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-09-23T21:40:42.9212316+03:00" queuing="2010-09-23T21:40:42.9342323+03:00" start="2010-09-23T21:40:42.9572336+03:00" finish="2010-09-23T21:40:43.7562793+03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CreateCompanyTest" storage="c:\users\pro_\desktop\jobportal\tests\bin\debug\tests.dll" id="d9a4d60e-041a-487e-1772-3a03a9248a3a">
+      <Execution id="d32757dc-c26c-4fdb-bcea-4272c568c892" />
+      <TestMethod codeBase="C:/Users/pro_/Desktop/JobPortal/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CompanyManagerTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateCompanyTest" />
+    </UnitTest>
+    <UnitTest name="GetCompaniesTest" storage="c:\users\pro_\desktop\jobportal\tests\bin\debug\tests.dll" id="0f3b4bf9-6562-b248-ed29-f506a1a85e4c">
+      <Execution id="abefe585-6927-454a-8990-4f3a6c0607b8" />
+      <TestMethod codeBase="C:/Users/pro_/Desktop/JobPortal/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CompanyManagerTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetCompaniesTest" />
+    </UnitTest>
+    <UnitTest name="CanCreateCompanyManagerTest" storage="c:\users\pro_\desktop\jobportal\tests\bin\debug\tests.dll" id="5fc830a2-71bb-887a-cc87-9b91ebbfb60a">
+      <Execution id="23b77c64-eecf-4b67-9e06-85a55aef75eb" />
+      <TestMethod codeBase="C:/Users/pro_/Desktop/JobPortal/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CompanyManagerTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanCreateCompanyManagerTest" />
+    </UnitTest>
+    <UnitTest name="CreateVacancyTest" storage="c:\users\pro_\desktop\jobportal\tests\bin\debug\tests.dll" id="2775a6ff-e8b5-4fa1-6481-3cd277ef4c53">
+      <Execution id="39c801b3-8741-43f9-8b42-163150816e9e" />
+      <TestMethod codeBase="C:/Users/pro_/Desktop/JobPortal/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CompanyManagerTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateVacancyTest" />
+    </UnitTest>
+    <UnitTest name="CreateVacancyEditTest" storage="c:\users\pro_\desktop\jobportal\tests\bin\debug\tests.dll" id="6e62afdc-280b-d45f-7fa8-ab8312046754">
+      <Execution id="d962d33a-8971-4840-9613-0f27415eb34d" />
+      <TestMethod codeBase="C:/Users/pro_/Desktop/JobPortal/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CompanyManagerTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateVacancyEditTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0f3b4bf9-6562-b248-ed29-f506a1a85e4c" executionId="abefe585-6927-454a-8990-4f3a6c0607b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2775a6ff-e8b5-4fa1-6481-3cd277ef4c53" executionId="39c801b3-8741-43f9-8b42-163150816e9e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5fc830a2-71bb-887a-cc87-9b91ebbfb60a" executionId="23b77c64-eecf-4b67-9e06-85a55aef75eb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6e62afdc-280b-d45f-7fa8-ab8312046754" executionId="d962d33a-8971-4840-9613-0f27415eb34d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d9a4d60e-041a-487e-1772-3a03a9248a3a" executionId="d32757dc-c26c-4fdb-bcea-4272c568c892" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="abefe585-6927-454a-8990-4f3a6c0607b8" testId="0f3b4bf9-6562-b248-ed29-f506a1a85e4c" testName="GetCompaniesTest" computerName="PRO" duration="00:00:00.2112098" startTime="2010-09-23T21:40:42.9812350+03:00" endTime="2010-09-23T21:40:43.4692629+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="abefe585-6927-454a-8990-4f3a6c0607b8">
+    </UnitTestResult>
+    <UnitTestResult executionId="39c801b3-8741-43f9-8b42-163150816e9e" testId="2775a6ff-e8b5-4fa1-6481-3cd277ef4c53" testName="CreateVacancyTest" computerName="PRO" duration="00:00:00.0428766" startTime="2010-09-23T21:40:43.4732631+03:00" endTime="2010-09-23T21:40:43.5242660+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="39c801b3-8741-43f9-8b42-163150816e9e">
+    </UnitTestResult>
+    <UnitTestResult executionId="23b77c64-eecf-4b67-9e06-85a55aef75eb" testId="5fc830a2-71bb-887a-cc87-9b91ebbfb60a" testName="CanCreateCompanyManagerTest" computerName="PRO" duration="00:00:00.0002083" startTime="2010-09-23T21:40:43.5262662+03:00" endTime="2010-09-23T21:40:43.5342666+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="23b77c64-eecf-4b67-9e06-85a55aef75eb">
+    </UnitTestResult>
+    <UnitTestResult executionId="d962d33a-8971-4840-9613-0f27415eb34d" testId="6e62afdc-280b-d45f-7fa8-ab8312046754" testName="CreateVacancyEditTest" computerName="PRO" duration="00:00:00.0774280" startTime="2010-09-23T21:40:43.5372668+03:00" endTime="2010-09-23T21:40:43.6222716+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d962d33a-8971-4840-9613-0f27415eb34d">
+    </UnitTestResult>
+    <UnitTestResult executionId="d32757dc-c26c-4fdb-bcea-4272c568c892" testId="d9a4d60e-041a-487e-1772-3a03a9248a3a" testName="CreateCompanyTest" computerName="PRO" duration="00:00:00.0307499" startTime="2010-09-23T21:40:43.6272719+03:00" endTime="2010-09-23T21:40:43.6662742+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d32757dc-c26c-4fdb-bcea-4272c568c892">
+    </UnitTestResult>
+  </Results>
+</TestRun>
